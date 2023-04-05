@@ -6,7 +6,7 @@
 
 header{
     background-color: rgba(255,105,0,255);
-    padding: 1.3rem;
+    padding: 1.3rem 0;
     color: #fff;
 }
 
@@ -22,11 +22,17 @@ ul{list-style-type: none;}
 
 .container-header{
     width: 75%;
-    justify-content: space-between;
 }
 
-nav ul li{
+nav{
+    width: 33.33%;
+}
+ul li{
    margin-right: 2rem;
+}
+.logo{
+    width: 33.33%;
+    text-align: center;
 }
 
 .logo img{
@@ -36,4 +42,72 @@ nav ul li{
 
 .social{
     text-align: right;
+    width: 33.33%;
+}
+
+.container-main{
+    width: 75%;
+    justify-content: space-between;
+}
+
+.column{
+    position: relative;
+    width: calc(100% / 3 - 4%);
+    margin-top: 3rem;
+}
+
+.column img{
+    width: 100%;
+}
+
+.sales{
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 23%;
+    background-color: red;
+    padding: 2px 7px;
+    color: #fff;
+}
+
+.sostenibility{
+    font-size: 12px;
+    position: absolute;
+    bottom: 23%;
+    left: 18%;
+    background-color: green;
+    padding: 2px 7px;
+    color: #fff;
+}
+
+
+
+.brand{
+    margin: 0;
+    font-size: 12px;
+}
+
+.description{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.price{
+    margin: 0;
+    font-size: 12px;
+    color: red;
+    
+}
+
+#last-price{
+    margin: 0;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: black;
+    margin-left: 10px;
+}
+
+.informations{
+    width: 75%;
 }
