@@ -60,6 +60,22 @@ ul li{
     width: 100%;
 }
 
+
+.webp{
+    display: block;
+}
+.webp-hover{
+    display: none;
+}
+
+#cambioimmagine:hover .webp{
+   display: none;
+}
+#cambioimmagine:hover .webp-hover{
+   display: block;
+}
+
+
 .heart{
     position: absolute;
     top: 1%;
@@ -69,6 +85,8 @@ ul li{
     font-size: 25px;
     padding: 0 3%;
 }
+
+
 
 .sales{
     font-size: 11px;
