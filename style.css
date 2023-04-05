@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(255,105,0,255);
+    padding: 1.3rem;
+    color: #fff;
+}
+
+ul{list-style-type: none;}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.container-header{
+    width: 75%;
+    justify-content: space-between;
+}
+
+nav ul li{
+   margin-right: 2rem;
+}
+
+.logo img{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.social{
+    text-align: right;
+}
