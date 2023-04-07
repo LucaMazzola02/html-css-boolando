@@ -86,6 +86,8 @@ ul li{
     padding: 0 3%;
 }
 
+.heart:hover .heart-hover{color: red;}
+
 
 
 .sales{
@@ -107,6 +109,18 @@ ul li{
     padding: 2px 5px;
     color: #fff;
 }
+
+#only-sostenibility{
+    font-size: 11px;
+    position: absolute;
+    left: 0;
+    bottom: 17%;
+    background-color: green;
+    padding: 2px 5px;
+    color: #fff;
+}
+
+
 
 
 
@@ -138,4 +152,22 @@ ul li{
 
 .informations{
     width: 75%;
+}
+
+
+footer{
+    margin-top: 3rem;
+    color: #fff;
+    background-color: rgba(26,26,26,255);
+}
+
+.container-footer{
+    padding: 2rem 0;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.container-footer span{
+    font-size: 12px;
+    margin-right: 10px;
 }
